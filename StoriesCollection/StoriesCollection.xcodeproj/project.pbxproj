@@ -13,9 +13,6 @@
 		CF68C095296EF95400548865 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF68C093296EF95400548865 /* Main.storyboard */; };
 		CF68C097296EF95500548865 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF68C096296EF95500548865 /* Assets.xcassets */; };
 		CF68C09A296EF95500548865 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF68C098296EF95500548865 /* LaunchScreen.storyboard */; };
-		CF68C0A5296EF95500548865 /* StoriesCollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68C0A4296EF95500548865 /* StoriesCollectionTests.swift */; };
-		CF68C0AF296EF95500548865 /* StoriesCollectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68C0AE296EF95500548865 /* StoriesCollectionUITests.swift */; };
-		CF68C0B1296EF95500548865 /* StoriesCollectionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68C0B0296EF95500548865 /* StoriesCollectionUITestsLaunchTests.swift */; };
 		CF68C0BE296F005500548865 /* CircleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68C0BD296F005500548865 /* CircleCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,10 +43,7 @@
 		CF68C099296EF95500548865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF68C09B296EF95500548865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF68C0A0296EF95500548865 /* StoriesCollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoriesCollectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF68C0A4296EF95500548865 /* StoriesCollectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesCollectionTests.swift; sourceTree = "<group>"; };
 		CF68C0AA296EF95500548865 /* StoriesCollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoriesCollectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF68C0AE296EF95500548865 /* StoriesCollectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesCollectionUITests.swift; sourceTree = "<group>"; };
-		CF68C0B0296EF95500548865 /* StoriesCollectionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesCollectionUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CF68C0BD296F005500548865 /* CircleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				CF68C08C296EF95400548865 /* StoriesCollection */,
-				CF68C0A3296EF95500548865 /* StoriesCollectionTests */,
-				CF68C0AD296EF95500548865 /* StoriesCollectionUITests */,
 				CF68C08B296EF95400548865 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,23 +103,6 @@
 				CF68C0BD296F005500548865 /* CircleCollectionViewCell.swift */,
 			);
 			path = StoriesCollection;
-			sourceTree = "<group>";
-		};
-		CF68C0A3296EF95500548865 /* StoriesCollectionTests */ = {
-			isa = PBXGroup;
-			children = (
-				CF68C0A4296EF95500548865 /* StoriesCollectionTests.swift */,
-			);
-			path = StoriesCollectionTests;
-			sourceTree = "<group>";
-		};
-		CF68C0AD296EF95500548865 /* StoriesCollectionUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CF68C0AE296EF95500548865 /* StoriesCollectionUITests.swift */,
-				CF68C0B0296EF95500548865 /* StoriesCollectionUITestsLaunchTests.swift */,
-			);
-			path = StoriesCollectionUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF68C0A5296EF95500548865 /* StoriesCollectionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF68C0B1296EF95500548865 /* StoriesCollectionUITestsLaunchTests.swift in Sources */,
-				CF68C0AF296EF95500548865 /* StoriesCollectionUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,9 +13,6 @@
 		CF68C0D3296F088900548865 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF68C0D1296F088900548865 /* Main.storyboard */; };
 		CF68C0D5296F088A00548865 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF68C0D4296F088A00548865 /* Assets.xcassets */; };
 		CF68C0D8296F088A00548865 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF68C0D6296F088A00548865 /* LaunchScreen.storyboard */; };
-		CF68C0E3296F088A00548865 /* CustomCellCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68C0E2296F088A00548865 /* CustomCellCollectionViewTests.swift */; };
-		CF68C0ED296F088A00548865 /* CustomCellCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68C0EC296F088A00548865 /* CustomCellCollectionViewUITests.swift */; };
-		CF68C0EF296F088A00548865 /* CustomCellCollectionViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68C0EE296F088A00548865 /* CustomCellCollectionViewUITestsLaunchTests.swift */; };
 		CF68C0FC296F094800548865 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68C0FB296F094800548865 /* CustomCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,10 +43,7 @@
 		CF68C0D7296F088A00548865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF68C0D9296F088A00548865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF68C0DE296F088A00548865 /* CustomCellCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCellCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF68C0E2296F088A00548865 /* CustomCellCollectionViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellCollectionViewTests.swift; sourceTree = "<group>"; };
 		CF68C0E8296F088A00548865 /* CustomCellCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCellCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF68C0EC296F088A00548865 /* CustomCellCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellCollectionViewUITests.swift; sourceTree = "<group>"; };
-		CF68C0EE296F088A00548865 /* CustomCellCollectionViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellCollectionViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CF68C0FB296F094800548865 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				CF68C0CA296F088900548865 /* CustomCellCollectionView */,
-				CF68C0E1296F088A00548865 /* CustomCellCollectionViewTests */,
-				CF68C0EB296F088A00548865 /* CustomCellCollectionViewUITests */,
 				CF68C0C9296F088900548865 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,23 +103,6 @@
 				CF68C0FB296F094800548865 /* CustomCollectionViewCell.swift */,
 			);
 			path = CustomCellCollectionView;
-			sourceTree = "<group>";
-		};
-		CF68C0E1296F088A00548865 /* CustomCellCollectionViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				CF68C0E2296F088A00548865 /* CustomCellCollectionViewTests.swift */,
-			);
-			path = CustomCellCollectionViewTests;
-			sourceTree = "<group>";
-		};
-		CF68C0EB296F088A00548865 /* CustomCellCollectionViewUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CF68C0EC296F088A00548865 /* CustomCellCollectionViewUITests.swift */,
-				CF68C0EE296F088A00548865 /* CustomCellCollectionViewUITestsLaunchTests.swift */,
-			);
-			path = CustomCellCollectionViewUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF68C0E3296F088A00548865 /* CustomCellCollectionViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF68C0EF296F088A00548865 /* CustomCellCollectionViewUITestsLaunchTests.swift in Sources */,
-				CF68C0ED296F088A00548865 /* CustomCellCollectionViewUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
