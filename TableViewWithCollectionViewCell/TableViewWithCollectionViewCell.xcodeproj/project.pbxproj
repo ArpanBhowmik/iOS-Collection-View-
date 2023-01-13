@@ -13,9 +13,6 @@
 		CF03BEB0296E8B0F000331DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF03BEAE296E8B0F000331DE /* Main.storyboard */; };
 		CF03BEB2296E8B10000331DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF03BEB1296E8B10000331DE /* Assets.xcassets */; };
 		CF03BEB5296E8B10000331DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF03BEB3296E8B10000331DE /* LaunchScreen.storyboard */; };
-		CF03BEC0296E8B10000331DE /* TableViewWithCollectionViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF03BEBF296E8B10000331DE /* TableViewWithCollectionViewCellTests.swift */; };
-		CF03BECA296E8B10000331DE /* TableViewWithCollectionViewCellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF03BEC9296E8B10000331DE /* TableViewWithCollectionViewCellUITests.swift */; };
-		CF03BECC296E8B10000331DE /* TableViewWithCollectionViewCellUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF03BECB296E8B10000331DE /* TableViewWithCollectionViewCellUITestsLaunchTests.swift */; };
 		CF03BEDE296E8B81000331DE /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF03BEDC296E8B81000331DE /* MyCollectionViewCell.swift */; };
 		CF03BEDF296E8B81000331DE /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF03BEDD296E8B81000331DE /* MyCollectionViewCell.xib */; };
 		CF03BEE2296E8B98000331DE /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF03BEE0296E8B98000331DE /* TableViewCell.swift */; };
@@ -49,10 +46,7 @@
 		CF03BEB4296E8B10000331DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF03BEB6296E8B10000331DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF03BEBB296E8B10000331DE /* TableViewWithCollectionViewCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewWithCollectionViewCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF03BEBF296E8B10000331DE /* TableViewWithCollectionViewCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewWithCollectionViewCellTests.swift; sourceTree = "<group>"; };
 		CF03BEC5296E8B10000331DE /* TableViewWithCollectionViewCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewWithCollectionViewCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF03BEC9296E8B10000331DE /* TableViewWithCollectionViewCellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewWithCollectionViewCellUITests.swift; sourceTree = "<group>"; };
-		CF03BECB296E8B10000331DE /* TableViewWithCollectionViewCellUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewWithCollectionViewCellUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CF03BEDC296E8B81000331DE /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		CF03BEDD296E8B81000331DE /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
 		CF03BEE0296E8B98000331DE /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
@@ -88,8 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				CF03BEA7296E8B0F000331DE /* TableViewWithCollectionViewCell */,
-				CF03BEBE296E8B10000331DE /* TableViewWithCollectionViewCellTests */,
-				CF03BEC8296E8B10000331DE /* TableViewWithCollectionViewCellUITests */,
 				CF03BEA6296E8B0F000331DE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -118,23 +110,6 @@
 				CF03BEB6296E8B10000331DE /* Info.plist */,
 			);
 			path = TableViewWithCollectionViewCell;
-			sourceTree = "<group>";
-		};
-		CF03BEBE296E8B10000331DE /* TableViewWithCollectionViewCellTests */ = {
-			isa = PBXGroup;
-			children = (
-				CF03BEBF296E8B10000331DE /* TableViewWithCollectionViewCellTests.swift */,
-			);
-			path = TableViewWithCollectionViewCellTests;
-			sourceTree = "<group>";
-		};
-		CF03BEC8296E8B10000331DE /* TableViewWithCollectionViewCellUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CF03BEC9296E8B10000331DE /* TableViewWithCollectionViewCellUITests.swift */,
-				CF03BECB296E8B10000331DE /* TableViewWithCollectionViewCellUITestsLaunchTests.swift */,
-			);
-			path = TableViewWithCollectionViewCellUITests;
 			sourceTree = "<group>";
 		};
 		CF03BED8296E8B1C000331DE /* Table Cell */ = {
@@ -300,7 +275,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF03BEC0296E8B10000331DE /* TableViewWithCollectionViewCellTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +282,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF03BECA296E8B10000331DE /* TableViewWithCollectionViewCellUITests.swift in Sources */,
-				CF03BECC296E8B10000331DE /* TableViewWithCollectionViewCellUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
